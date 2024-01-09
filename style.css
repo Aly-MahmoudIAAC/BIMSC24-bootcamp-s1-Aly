@@ -1,27 +1,82 @@
 div {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 #navbar {
-
+    
+    background-size: auto;
     background-color: rgb(64, 207, 200);
-    font-size: 20px;
+    border: solid;
+    font-size: 25px;
     color: rgb(0, 0, 0);
+
+    position: absolute;
+    left: 1% ;
+    width: 98%;
+    height: 7%;
 }
 
 #menubar {
 
     background-color: rgb(213, 255, 235);
+    border: solid rgba(66, 15, 15, 0.274);
     font-size: 20px;
     color: rgb(32, 35, 77);
+
+    position: absolute;
+    top: 10%;
+    left: 1% ;
+    width: 15%;
+    height: auto;
+    
+}
+
+#menu-frame {
+    text-align: center;
+    background-color: rgba(206, 206, 206, 0.349);
+    padding-top: 10%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+
+    position: absolute;
+    top: 12%;
+    left: 1% ;
+    width: 15.5%;
+    height: 50%;
+
 }
 
 
 
-#mainbar {
 
+#mainbar {
+    text-align: center;
     background-color: rgb(95, 121, 119);
+    border: solid rgba(27, 66, 104, 0.233);
     font-size: 18px;
     color: rgb(255, 255, 255);
+
+    position: absolute;
+    top: 10%;
+    left: 20% ;
+    width: 79%;
+    height: auto;
+
+}
+
+#main-frame {
+    text-align: center;
+    background-color: rgba(207, 207, 207, 0.349);
+    padding-top: 10%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+
+    position: absolute;
+    top: 12%;
+    left: 20% ;
+    width: 79.4%;
+    height: 50%;
+
 }
